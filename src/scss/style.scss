@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+@import "./base.scss";
+@import "./color.scss";
+
+#container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+
+  .logo-wrapper {
+    width: 100%;
+    max-width: 1000px;
+  }
+  .logo {
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .description {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+  }
+}
+
+/*画面幅1000px以下の設定
+------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1000px) {
+  #container {
+    padding: 0px 4%;
+    padding-top: 20px;
+  }
+}
