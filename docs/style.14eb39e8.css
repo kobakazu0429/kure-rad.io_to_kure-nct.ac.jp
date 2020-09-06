@@ -1,0 +1,70 @@
+@charset "UTF-8";
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #666;
+  background: #fff;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 14px;
+  line-height: 2;
+  -webkit-text-size-adjust: none;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 100%;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+#container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 20px;
+}
+#container .logo-wrapper {
+  width: 100%;
+  max-width: 1000px;
+}
+#container .logo {
+  width: 100%;
+  max-width: 1000px;
+}
+#container .description {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+
+/*画面幅1000px以下の設定
+------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1000px) {
+  #container {
+    padding: 0px 4%;
+    padding-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.14eb39e8.css.map */
