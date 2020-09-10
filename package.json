@@ -6,7 +6,7 @@
   "author": "kobakakzu0429 <kobakazu10@gmail.com>",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --no-minify -d docs --public-url './'"
+    "build": "parcel build src/index.html --no-minify -d docs --public-url './' && cp netlify.toml docs"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
